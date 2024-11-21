@@ -1,0 +1,130 @@
+2024-11-21 20:57:55,076 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for in-memory database (connection.py:325)
+2024-11-21 20:57:55,136 - MainThread - sqlmesh.core.config.scheduler - WARNING - The snowflake engine is not recommended for storing SQLMesh state in production deployments. Please see https://sqlmesh.readthedocs.io/en/stable/guides/configuration/#state-connection for a list of recommended engines and more information. (scheduler.py:94)
+2024-11-21 20:57:55,145 - MainThread - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.10.2, Platform: Windows-10-10.0.19045-SP0 (connection.py:414)
+2024-11-21 20:57:55,217 - MainThread - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain (connection.py:1197)
+2024-11-21 20:57:55,217 - MainThread - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity. (connection.py:1278)
+2024-11-21 20:57:57,558 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 3 (cursor.py:1166)
+2024-11-21 20:57:57,727 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:57:57,892 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:57:58,064 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:57:58,211 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 3 (cursor.py:1166)
+2024-11-21 20:57:58,358 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:57:58,503 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:57:58,658 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:57:58,913 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:57:59,051 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:57:59,310 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 8 (cursor.py:1166)
+2024-11-21 20:57:59,475 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:57:59,741 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 8 (cursor.py:1166)
+2024-11-21 20:57:59,886 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:01,057 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 0 (cursor.py:1166)
+2024-11-21 20:58:01,200 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:01,390 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:01,529 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:01,688 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:01,828 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:02,010 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 2 (cursor.py:1166)
+2024-11-21 20:58:02,155 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:13,340 - ThreadPoolExecutor-9_0 - sqlmesh.core.snapshot.evaluator - INFO - Listing data objects in schema NB_DEMOS.sqlmesh__SQLMESH_EXAMPLE (evaluator.py:282)
+2024-11-21 20:58:13,340 - ThreadPoolExecutor-9_0 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.10.2, Platform: Windows-10-10.0.19045-SP0 (connection.py:414)
+2024-11-21 20:58:13,341 - ThreadPoolExecutor-9_0 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain (connection.py:1197)
+2024-11-21 20:58:13,341 - ThreadPoolExecutor-9_0 - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity. (connection.py:1278)
+2024-11-21 20:58:15,125 - ThreadPoolExecutor-9_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: SELECT CURRENT_DATABASE() (base.py:2062)
+2024-11-21 20:58:15,392 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:15,594 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:15,597 - ThreadPoolExecutor-9_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: SELECT CURRENT_DATABASE() (base.py:2062)
+2024-11-21 20:58:15,791 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:15,988 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:15,995 - ThreadPoolExecutor-9_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: SELECT DISTINCT "TABLE_CATALOG" AS "catalog", "TABLE_NAME" AS "name", "TABLE_SCHEMA" AS "schema_name", CASE WHEN "TABLE_TYPE" = 'BASE TABLE' AND "IS_DYNAMIC" = 'YES' THEN 'MANAGED_TABLE' WHEN "TABLE_TYPE" = 'BASE TABLE' THEN 'TABLE' WHEN "TABLE_TYPE" = 'TEMPORARY TABLE' THEN 'TABLE' WHEN "TABLE_TYPE" = 'LOCAL TEMPORARY' THEN 'TABLE' WHEN "TABLE_TYPE" = 'EXTERNAL TABLE' THEN 'TABLE' WHEN "TABLE_TYPE" = 'EVENT TABLE' THEN 'TABLE' WHEN "TABLE_TYPE" = 'VIEW' THEN 'VIEW' WHEN "TABLE_TYPE" = 'MATERIALIZED VIEW' THEN 'MATERIALIZED_VIEW' ELSE "TABLE_TYPE" END AS "type", "CLUSTERING_KEY" AS "clustering_key" FROM "NB_DEMOS"."INFORMATION_SCHEMA"."TABLES" WHERE "TABLE_SCHEMA" = 'sqlmesh__SQLMESH_EXAMPLE' AND "TABLE_NAME" IN ('SQLMESH_EXAMPLE__CUSTOM_TEST__840557216', 'SQLMESH_EXAMPLE__SEED_MODEL__3277152979') (base.py:2062)
+2024-11-21 20:58:16,789 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 0 (cursor.py:1166)
+2024-11-21 20:58:16,989 - ThreadPoolExecutor-9_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:17,082 - MainThread - snowflake.connector.connection - INFO - closed (connection.py:789)
+2024-11-21 20:58:17,212 - MainThread - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session (connection.py:795)
+2024-11-21 20:58:17,392 - MainThread - sqlmesh.core.snapshot.evaluator - INFO - Creating schema 'NB_DEMOS.sqlmesh__SQLMESH_EXAMPLE' (evaluator.py:906)
+2024-11-21 20:58:17,393 - MainThread - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.10.2, Platform: Windows-10-10.0.19045-SP0 (connection.py:414)
+2024-11-21 20:58:17,394 - MainThread - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain (connection.py:1197)
+2024-11-21 20:58:17,395 - MainThread - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity. (connection.py:1278)
+2024-11-21 20:58:18,813 - MainThread - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: CREATE SCHEMA IF NOT EXISTS "NB_DEMOS"."sqlmesh__SQLMESH_EXAMPLE" (base.py:2062)
+2024-11-21 20:58:18,990 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:19,193 - MainThread - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:19,197 - ThreadPoolExecutor-13_0 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.10.2, Platform: Windows-10-10.0.19045-SP0 (connection.py:414)
+2024-11-21 20:58:19,198 - ThreadPoolExecutor-13_0 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain (connection.py:1197)
+2024-11-21 20:58:19,198 - ThreadPoolExecutor-13_0 - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity. (connection.py:1278)
+2024-11-21 20:58:20,696 - ThreadPoolExecutor-13_0 - sqlmesh.core.snapshot.evaluator - INFO - Creating table 'NB_DEMOS.sqlmesh__SQLMESH_EXAMPLE.SQLMESH_EXAMPLE__SEED_MODEL__3277152979' (evaluator.py:1196)
+2024-11-21 20:58:20,700 - ThreadPoolExecutor-13_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: CREATE TABLE IF NOT EXISTS "NB_DEMOS"."sqlmesh__SQLMESH_EXAMPLE"."SQLMESH_EXAMPLE__SEED_MODEL__3277152979" ("ID" INT, "ITEM_ID" INT, "EVENT_DATE" DATE) (base.py:2062)
+2024-11-21 20:58:20,925 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:21,224 - ThreadPoolExecutor-13_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: USE SCHEMA "NB_DEMOS"."sqlmesh__SQLMESH_EXAMPLE" (base.py:2062)
+2024-11-21 20:58:21,490 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:21,494 - ThreadPoolExecutor-13_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: CREATE TEMPORARY TABLE IF NOT EXISTS "NB_DEMOS"."sqlmesh__SQLMESH_EXAMPLE"."__temp_SQLMESH_EXAMPLE__SEED_MODEL__3277152979_5he1z1sk" ("ID" INT, "ITEM_ID" INT, "EVENT_DATE" DATE) (base.py:2062)
+2024-11-21 20:58:21,710 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:21,928 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:24,986 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:25,326 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 3 (cursor.py:1166)
+2024-11-21 20:58:25,556 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:26,342 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:34,183 - ThreadPoolExecutor-13_0 - sqlmesh.core.engine_adapter.base - INFO - Executing SQL: DROP TABLE IF EXISTS "NB_DEMOS"."sqlmesh__SQLMESH_EXAMPLE"."SQLMESH_EXAMPLE__SEED_MODEL__3277152979" (base.py:2062)
+2024-11-21 20:58:34,601 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:34,799 - ThreadPoolExecutor-13_0 - snowflake.connector.cursor - INFO - Number of results in first chunk: 1 (cursor.py:1166)
+2024-11-21 20:58:34,800 - MainThread - snowflake.connector.connection - INFO - closed (connection.py:789)
+2024-11-21 20:58:34,936 - MainThread - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session (connection.py:795)
+2024-11-21 20:58:35,384 - MainThread - sqlmesh.core.context - ERROR - Apply Failure: Traceback (most recent call last):
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\utils\concurrency.py", line 69, in _process_node
+    self.fn(node)
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\utils\concurrency.py", line 165, in <lambda>
+    lambda s_id: fn(snapshots_by_id[s_id]),
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\snapshot\evaluator.py", line 316, in <lambda>
+    lambda s: self._create_snapshot(
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\snapshot\evaluator.py", line 724, in _create_snapshot
+    evaluation_strategy.create(
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\snapshot\evaluator.py", line 1393, in create
+    self._replace_query_for_model(model, table_name, df)
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\snapshot\evaluator.py", line 1068, in _replace_query_for_model
+    self.adapter.replace_query(
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\engine_adapter\shared.py", line 302, in internal_wrapper
+    return func(*list_args, **kwargs)
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\engine_adapter\base.py", line 329, in replace_query
+    query = source_queries[0].query_factory()
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\engine_adapter\snowflake.py", line 283, in query_factory
+    write_pandas(
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\snowflake\connector\pandas_tools.py", line 484, in write_pandas
+    copy_results = cursor.execute(copy_into_sql, _is_internal=True).fetchall()
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\snowflake\connector\cursor.py", line 1097, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\snowflake\connector\errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\snowflake\connector\errors.py", line 339, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\snowflake\connector\errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 100038 (22018): 01b8859f-3201-5499-000a-efc2000472c2: Numeric value '' is not recognized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\context.py", line 1370, in apply
+    self._apply(plan, circuit_breaker)
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\context.py", line 1919, in _apply
+    self._scheduler.create_plan_evaluator(self).evaluate(
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\plan\evaluator.py", line 117, in evaluate
+    self._push(plan, snapshots, deployability_index_for_creation)
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\plan\evaluator.py", line 230, in _push
+    self.snapshot_evaluator.create(
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\core\snapshot\evaluator.py", line 314, in create
+    concurrent_apply_to_snapshots(
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\utils\concurrency.py", line 163, in concurrent_apply_to_snapshots
+    return concurrent_apply_to_dag(
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\utils\concurrency.py", line 205, in concurrent_apply_to_dag
+    ).run()
+  File "C:\Users\BASANT BORANA\Desktop\sqlmesh_demos\.env\lib\site-packages\sqlmesh\utils\concurrency.py", line 64, in run
+    self._finished_future.result()
+  File "C:\python310\lib\concurrent\futures\_base.py", line 446, in result
+    return self.__get_result()
+  File "C:\python310\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+sqlmesh.utils.concurrency.NodeExecutionFailedError: Execution failed for node SnapshotId<"NB_DEMOS"."SQLMESH_EXAMPLE"."SEED_MODEL": 1591756957>
+ (context.py:1378)
+2024-11-21 20:58:35,416 - MainThread - snowflake.connector.connection - INFO - closed (connection.py:789)
+2024-11-21 20:58:35,534 - MainThread - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session (connection.py:795)
+2024-11-21 20:58:35,707 - MainThread - snowflake.connector.connection - INFO - closed (connection.py:789)
+2024-11-21 20:58:35,840 - MainThread - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session (connection.py:795)
+2024-11-21 20:58:36,060 - MainThread - root - INFO - Shutting down the event dispatcher (dispatcher.py:159)

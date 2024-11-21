@@ -1,0 +1,15 @@
+gateways:
+  snowflake:
+    connection:
+      type: snowflake
+      account: ul67777.ap-southeast-1 
+      user: SPARE
+      password: Azam@123
+      database: NB_DEMOS 
+      warehouse: COMPUTE_WH  
+
+default_gateway: snowflake
+
+model_defaults:
+  dialect: snowflake  
+  start: 2024-11-20 
